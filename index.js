@@ -3,8 +3,7 @@ function BoardMember(name, homeState, training) {
   this.homeState = homeState
   this.training = training
   this.veto = function(){
-    return
-     ('No, I must disagree');
+    return ('No, I must disagree');
   }
   this.approve = function(){
     return ('You can do that!');
@@ -21,4 +20,3 @@ function BoardMember(name, homeState, training) {
 
 }
 let polishedBoardMember = new BoardMember('Mr. Polished', 'New York', 'law');
-
