@@ -4,7 +4,3 @@ function BoardMember(name, homeState, training) {
   this.training = training
 }
 
-let polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
-veto = function(){
-  console.log('No, I must disagree');
-}
