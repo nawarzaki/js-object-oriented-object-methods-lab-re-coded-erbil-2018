@@ -21,6 +21,6 @@ function BoardMember(name, homeState, training) {
 }
 
 let polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
-this.veto = function(){
+veto = function(){
   console.log('No, I must disagree');
 }
