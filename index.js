@@ -21,3 +21,4 @@ function BoardMember(name, homeState, training) {
 }
 
 let polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
+polishedBoardMember.veto()
